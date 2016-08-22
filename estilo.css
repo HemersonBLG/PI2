@@ -1,0 +1,36 @@
+body{
+	background-color: light-blue;
+}
+.container{
+	
+	background-color:white;
+}
+.bloco{
+	height:150px;
+}
+
+@media (max-width:1200px) and (min-width: 992px){
+	.bloco.vermelho{
+		height: 300px;
+	}
+}
+
+.bloco.vermelho{
+	background-color: red;
+}
+
+.bloco.verde{
+	background-color: green;
+}
+
+.bloco.amarelo{
+	background-color: yellow;
+}
+
+.bloco.cinza{
+	background-color: gray;
+}
+
+.bloco.rosa{
+	background-color: pink;
+}

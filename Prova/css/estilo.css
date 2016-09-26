@@ -1,0 +1,45 @@
+.container{
+	
+}
+
+.trapezio{
+	border-bottom: 75px solid blue;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	height: 0;
+	width: 75px;
+}
+
+.cima{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid green;
+}
+
+.pentagono{
+	    border-top: 50px solid green;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0px;
+        width: 50px;
+}
+
+.pacman{
+	width: 	0px;
+	height: 0px;
+	border-right: 50px solid transparent; 
+	border-top: 50px solid yellow; 
+	border-left: 50px solid yellow; 
+	border-bottom: 50px solid yellow; 
+	border-radius: 50%;
+	
+}
+
+.lua{
+	border-radius: 50%;
+	height:100px;
+	width: 100px;
+	box-shadow: 15px 15px 0 0 yellow; 
+}

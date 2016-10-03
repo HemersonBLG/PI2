@@ -1,0 +1,185 @@
+.ceu{
+	background-color: cyan;
+	height: 735px;
+	margin-top: 0px;
+	
+	animation: escureceCeu 8s linear infinite;
+}
+@keyframes escureceCeu{
+	0%{
+		background-color: lightcyan;
+	}
+	25%{
+		backgroud-color: blue;
+	}
+	50%{
+		backgroud-color: navyblue;
+	}
+	100%{
+		backgroud-color: lightcyan;
+	}
+}
+
+.sol{
+	background-color:yellow;
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	margin-right:10px;
+	margin-top:0px;
+	animation: moveSol 8s linear infinite;
+	
+}
+
+@keyframes moveSol{
+	0%{
+		margin-left: 0px;
+		background-color: gold;
+		margin-top: 90px;
+		margin-botton: -90px;
+	}
+	25%{
+		margin-left: 555px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: darkorange;
+	}
+	50%{
+		margin-left: 1200px;
+		margin-top: 90px;
+		margin-bottom: -90px;
+		background-color: lightgray;
+	}
+	75%{
+		margin-left: 555px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: gray;
+	}
+	100%{
+		margin-left: 0px;
+		margin-top: 90px;
+		margin-bottom: -90px;
+		background-color: yellow;
+		
+	}
+}
+.sol:hover{
+	background-color:darkorange;
+	margin-left:1110px;
+	margin-bottom: -245px;
+	margin-top: 245px
+}
+
+.cabeca {
+    background-color: white;
+    width: 33px;
+    height: 51px;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 410px;
+    border-color: black;
+    border: solid;
+
+}
+.olhodireito{
+	background-color:black;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	margin-top:53%;
+	margin-left:21%;
+}
+.olhoesquerdo{
+	background-color:black;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	margin-top:-18%;
+	margin-left:64%;
+}
+.corpo{
+	background-color:black;
+	width:4px;
+	height:67px;
+	margin-left:14px;
+	margin-top:29px;
+}
+.bracodireito{
+	background-color:black;
+	width:4px;
+	height:57px;
+	margin-left:-24px;
+	transform: rotate(45deg);
+	
+}
+.bracoesquerdo{
+	background-color:black;
+	width:4px;
+	height:57px;
+	margin-left:22px;
+	margin-top:-57px;
+	transform: rotate(-45deg);
+	
+}
+.pernadireita{
+	background-color:black;
+	width:4px;
+	height:57px;
+	margin-left:-22px;
+	transform: rotate(45deg);
+}
+.pernaesquerda{
+	background-color:black;
+	width:4px;
+	height:57px;
+	margin-left:23px;
+	margin-top:-57px;
+	transform: rotate(-45deg);
+}
+.teto-casa {
+    margin-top: 190px;
+    margin-left: 954px;
+    width: 10px;
+    height: 0px;
+    float: left;
+    border-left: 165px solid transparent;
+    border-bottom: 150px solid chocolate;
+    border-right: 165px solid transparent;
+}
+.corpo-casa{
+	background-color:khaki;
+	width:291px;
+	height:216px;
+	float:left;
+	margin-top:150px;
+	margin-left:-148px;
+	border-color:blue;
+	border: solid;
+}
+.porta-casa {
+    background-color: burlywood;
+    width: 81px;
+    height: 150px;
+    float: left;
+    margin-top: -161px;
+    margin-left: 30px;
+    border-bottom: solid;
+    border-top: solid;
+    border-left: dotted;
+}
+.macaneta-porta{
+	background-color:black;
+	width:13px;
+	height:13px;
+	border-radius: 50%;
+	margin-top:67px;
+	margin-left:5px;
+}
+.terra{
+	background-color:green;
+	width:1420px;
+	height:23px;
+	margin-top:95px;
+	margin-left:5px;
+}

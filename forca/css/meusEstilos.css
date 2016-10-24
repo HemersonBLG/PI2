@@ -1,0 +1,12 @@
+.concluido{
+	color:red;
+}
+
+label{
+	float:left;
+	width:100%;
+}
+
+.esconder{
+	display:none;
+}

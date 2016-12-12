@@ -11,17 +11,13 @@
 		i++
 		document.body.appendChild(b)
 		b.addEventListener("click", function(){
-			var teste = document.getElementById(b.id+cont)
-			console.log(teste)
-			console.log(b)
-			if(teste){
-			if(teste.id>b.id){
-			teste.remove()
-			cont++
-			}}else{
+			var teste = document.getElementById(b.id)
+			if(teste.id){
+				if(b.nextSibling){
+				b.nextSibling.remove()
+				}else
+					this.remove()
+			}else
 				this.remove()
-				cont=1
-			}
-			
 		})
 	})
